@@ -1,0 +1,17 @@
+h1{
+    text-align: center;
+    font-family: fantasy  ;
+}
+body{
+    background-image: url('https://wallpapercave.com/wp/wp1886414.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.discord{
+color: black;
+background-color: transparent;
+font-size: 25px;
+font-family: fantasy;
+text-align:center;
+
+}
