@@ -51,13 +51,13 @@ body{font-family: 'Work Sans', sans-serif;overflow-x:hidden}
         .st3{font-size:4.8rem;}
         .st4{font-size:1.78259rem;}
         .st5{font-size:4.6rem;}
-    .main-title{height: 12rem;width: 60rem;position: absolute;right:0;left: 0;top:35rem; margin: 0 auto;text-align: center;opacity: 0;
+    .main-title{height: 12rem;width: 60rem;position: center;right:100px;left: 0;top:35rem; margin: 0 auto;text-align: center;opacity: 0;
                 animation-name: big-fade-in;animation-play-state: running;animation-duration: .5s;animation-fill-mode: forwards;
                 animation-delay:3.9s;}
         .name-title{font-size: 5rem;color: #f6f6f6;font-family: 'Oswald', sans-serif;font-weight: 300; border-bottom: 0.15rem solid #f6f6f6;}
         .subname-title{font-size:2rem; color: #f6f6f6;line-height: 5rem;font-weight: 300;}
 
-.box-container{height: 90rem;position: absolute;top: 60rem;left: 0;right: 0; margin: 0 auto;opacity: 0;animation-name: big-fade-in;
+.box-container{height: 50px;position: center; margin: 0 auto; width: 100px;
               animation-play-state: running;animation-duration: .75s;animation-fill-mode: forwards;animation-delay:3.9s;}
     .small-content-box{height: 30rem;padding: 0;overflow: hidden;cursor: pointer;}
         .bg-box-img{height: 100%;width: 100%; position: relative;transition: transform 3s ease-in-out;}
