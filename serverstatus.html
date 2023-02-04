@@ -10,24 +10,18 @@
 <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
 <script src="sidebar.js"></script>
 <body>
-  
-  <div id="mySidebar" class="sidebar">
-    <a href="javascript:void(0)" class="closebtn" onclick="closeSidebar()">&times;</a>
-    <a href="index.html">Home</a>
-    <a href="serverstatus.html">Server Status</a>
-    <a href="https://discord.gg/JeymBsqMtP">Discord</a>
-    
-</div>
-
-<div id="main">
-    <button class="openbtn" onclick="openSidebar()">&#9776; </button>
-    </div>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Pagina Principala</a></li>
+        <li><a href="serverstatus.html">Server Status</a></li>
+        <li><a href="https://discord.gg/JeymBsqMtP">Discord</a></li>
+      </ul>
+    </nav>
+  </header>
     <div class="serverstatus">
      <center><script type="application/javascript">window.addEventListener('message',function(e){if(e.data.uid&&e.data.type==='sizeUpdate'){var i = document.querySelector('iframe[name="'+e.data.uid+'"]');i.style.width = e.data.payload.width;i.style.height = e.data.payload.height;}});</script><iframe src="https://cdn.battlemetrics.com/b/horizontal500x80px/18369877.html?foreground=%23eeeeee&background=%23222222&lines=%23333333&linkColor=%231185ec&chartColor=%23FF0700" frameborder=0 style="border:0" name="qxroe"></iframe></center>
     </div>
-    
-    
-</div>
-     
+
 </body>
 </html> 
